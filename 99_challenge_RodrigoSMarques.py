@@ -150,7 +150,6 @@ plt.figure(figsize = (10,10))
 plt.plot(longitude,latitude,'.', alpha = 0.4, markersize = 0.05)
 plt.show()
 
-
 loc_trips_clean = pd.DataFrame()
 loc_trips_clean['longitude'] = longitude
 loc_trips_clean['latitude'] = latitude
